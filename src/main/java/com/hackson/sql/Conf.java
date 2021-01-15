@@ -13,11 +13,11 @@ public class Conf {
     public final static String TIDB_URL = "${ip}:${port}";
 
     //TODO
-    public final static String TIDB_USER = "${user}";
+    public final static String TIDB_USER = "root";
 
     //TODO
-    public final static String TIDB_PASSWROD = "${password}";
+    public final static String TIDB_PASSWROD = "";
 
     //TODO
-    public static String HIVE_CONF_DIR = "";
+    public static String HIVE_CONF_DIR = "/root/apache-hive-2.1.1-bin/conf";
 }
